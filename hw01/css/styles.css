@@ -1,0 +1,178 @@
+/*
+COLOR PALETTE
+#FFFFFF - white
+#FEE6DE - light-pink, header background
+#005546 - green, header text
+#002E26- darker green, header hover
+*/
+
+/* FONTS */
+
+<link href="https://fonts.googleapis.com/css2?
+      family=Raleway:wght@300;400;600&display=swap"
+      rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=
+      DM+Serif+Text&display=swap" rel="stylesheet">
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navigation bar
+------------------------------------*/
+
+nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  font-size: 15px;
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+nav li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+div#rightnav {
+  float: right;
+}
+
+div#leftnav {
+  float: left;
+}
+
+nav a {
+  color: #005546;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: #00352C;
+  font-weight: 700;
+}
+/* Header
+------------------------------------*/
+div#header {
+  background-image: url("../background8.png");
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+
+header {
+  /* background-color: #FEE6DE; */
+  color: #005546;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px:
+}
+
+header h1 {
+  font-family: 'DM Serif Text', serif;
+  letter-spacing: 1.75px;
+  font-size: 70px;
+  padding-left: 130px;
+  margin: 0px;
+}
+
+header p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  padding-left: 130px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/* About Me
+------------------------------------*/
+div#aboutme {
+  margin: 0px;
+  background-image: url("../aboutme.png");
+  background-size: contain;
+  background-position: center bottom;
+}
+
+h2 {
+    margin: 0px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #005546;
+}
+
+div#aboutme p {
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 750px;
+    padding-right: 250px;
+    font-size: 19px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #005546;
+}
+
+/* Work Experiences
+------------------------------------*/
+
+div#work {
+  margin: 0px;
+  background-color: #FEE6DE;
+}
+
+div#work section {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #005546;
+}
+
+div#work li {
+  padding: 0px;
+}
+
+div#work div {
+  padding: 0px;
+  margin: 0px;
+}
