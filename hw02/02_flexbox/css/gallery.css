@@ -4,9 +4,7 @@ body {
     padding:0;
     font-family: Arial;
 }
-body * {
-    box-sizing: border-box;
-}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
